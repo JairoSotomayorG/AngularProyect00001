@@ -12,6 +12,7 @@ export class AppComponent {
   email = 'rpablo@gmail.com';
   sueldos = [1700, 1600, 1900];
   activo = true;
+  contador = 1;
 
   esActivo(){
     if (this.activo)
@@ -25,5 +26,13 @@ export class AppComponent {
     for(let x =0; x<this.sueldos.length; x++)
     suma+=this.sueldos[x];
     return suma;
+  }
+
+  incrementar() {
+    this.contador++;
+  }
+
+  decrementar() {
+    this.contador--;
   }
 }

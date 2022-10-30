@@ -16,3 +16,17 @@
   <p>En los últimos 3 meses ha ganado: {{ultimos3Sueldos()}}</p>
   <p>{{esActivo()}}</p>
 </div>
+<hr>
+<h3>6 captura de eventos</h3>
+<div>
+  <p>{{contador}}</p>
+  <button (click)="incrementar()">Sumar 1</button>
+  <button (click)="decrementar()">Restar 1</button>
+</div>
+<br>
+<hr>
+<h3>directiva de modelo ngModel</h3>
+<input type="text" [ngModel]="nombre">
+<hr>
+<h3>directiva de modelo ngModel cambia todo</h3>
+<input type="text" [(ngModel)]="nombre">
