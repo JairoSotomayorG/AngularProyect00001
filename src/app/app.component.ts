@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'proyect000-curso';
   nombre = 'Jairo Sotomayor';
-  edad = 37;
+  edad = 17;
   email = 'rpablo@gmail.com';
   sueldos = [1700, 1600, 1900];
   activo = true;
